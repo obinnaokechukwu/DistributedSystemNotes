@@ -8,7 +8,8 @@
 
 ## Causality and the "Happens Before" Relation
 
-The notation `A -> B` means *"A happens before B"* and helps make the ordering of events in time explicit.
+The notation `A -> B` means *"A happens before B"* and helps make the ordering of events in time explicit.
+
 The "happens before" relation allows us to conclude two things:
 
 1. It is possible that event `A` ***might*** have been the cause of event `B`
