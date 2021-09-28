@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 4](./Lecture%204.md) | [Lecture 6](./Lecture%206.md)
+| [Lecture 4](./Lecture%2004.md) | [Lecture 6](./Lecture%2006.md)
 
 
 
@@ -25,7 +25,7 @@ Invented independently by Friedemann Mattern and Colin Fidge.  Both men wrote pa
 
 > Addendum
 > 
-> Subsequent investigation by Lindsey Kuper has uncovered that without using the name *"vector clock"*, the concept was already being used by Rivka Ladin and Barbara Liskov in 1986.  See [lecture 23](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%2023.md#ladin--liskovs-paper-highly-available-distributed-services-and-fault-tolerant-distributed-garbage-collection) for details.
+> Subsequent investigation by Lindsey Kuper has uncovered that without using the name *"vector clock"*, the concept was already being used by Rivka Ladin and Barbara Liskov in 1986.  See [lecture 23](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%20023.md#ladin--liskovs-paper-highly-available-distributed-services-and-fault-tolerant-distributed-garbage-collection) for details.
 
 For Vector Clocks however, this relation ***is*** reversable:
 
@@ -299,6 +299,6 @@ This is an example of where a diagram provides a very useful way to represent th
 
 | Previous | Next
 |---|---
-| [Lecture 4](./Lecture%204.md) | [Lecture 6](./Lecture%206.md)
+| [Lecture 4](./Lecture%2004.md) | [Lecture 6](./Lecture%2006.md)
 
 

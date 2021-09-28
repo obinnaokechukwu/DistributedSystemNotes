@@ -115,7 +115,7 @@ There does not appear to be any formal proof to demonstrate that this strategy i
 
 Most of the message sending scenarios we've looked at so far are cases where one participant sends a message to exactly one other participant.
 
-In [lecture 7](Lecture%207.md) we looked at an implementation of causal broadcast.  This is the situation in which ***all*** participants in the system receive the message (excluding of course the process that sent the message in the first place).  By means of vector clocks, we were able to ensure that a ***message from the future*** was not delivered too early.  
+In [lecture 7](Lecture%2007.md) we looked at an implementation of causal broadcast.  This is the situation in which ***all*** participants in the system receive the message (excluding of course the process that sent the message in the first place).  By means of vector clocks, we were able to ensure that a ***message from the future*** was not delivered too early.  
 
 ![Causal Broadcast](./img/L7%20Causal%20Broadcast%208.png)
 

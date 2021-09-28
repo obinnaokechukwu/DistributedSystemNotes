@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 6](./Lecture%206.md) | [Lecture 8](./Lecture%208.md)
+| [Lecture 6](./Lecture%2006.md) | [Lecture 8](./Lecture%2008.md)
 
 
 ## Causal Broadcast Using Vector Clocks
@@ -156,7 +156,7 @@ So, we could lasso all the events and internal variables of a process and call t
 
 But what about the state of all the other processes in the system?
 
-One approach might be to use a global clock and inform every process that at a certain time of day (say `09:20`), they must all take a snapshot of themselves.  However, as we have already seen in [lecture 2](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%202.md#time-and-how-we-measure-it), this approach won't work reliably &mdash; not because a process can't take a selfie (so to speak), but because synchronising clocks between computers is a notoriously difficult task.
+One approach might be to use a global clock and inform every process that at a certain time of day (say `09:20`), they must all take a snapshot of themselves.  However, as we have already seen in [lecture 2](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%2002.md#time-and-how-we-measure-it), this approach won't work reliably &mdash; not because a process can't take a selfie (so to speak), but because synchronising clocks between computers is a notoriously difficult task.
 
 ![Snapshot Anomaly Caused by Using a Wall clock](./img/L7%20Wallclock%20Snapshot%20Anomaly.png)
 
@@ -188,7 +188,7 @@ As an aside, the success of the Chandy-Lamport algorithm relies entirely on the 
 
 1. A message is ***guaranteed*** to arrive at the recipient &mdash; eventually
 1. All channels act as FIFO queues, thus making it impossible for two messages to arrive out of order (I.E. we can exclude the possibility of FIFO anomalies)
-1. Processes don't crash! (The topic of process failure is dealt with later in [lecture 10](./Lecture%2010.md))
+1. Processes don't crash! (The topic of process failure is dealt with later in [lecture 10](./Lecture%20010.md))
 
 ### Channel Naming Convention
 
@@ -270,6 +270,6 @@ The Chandy-Lamport algorithm actually predates the invention of vector clocks.  
 
 | Previous | Next
 |---|---
-| [Lecture 6](./Lecture%206.md) | [Lecture 8](./Lecture%208.md)
+| [Lecture 6](./Lecture%2006.md) | [Lecture 8](./Lecture%2008.md)
 
 

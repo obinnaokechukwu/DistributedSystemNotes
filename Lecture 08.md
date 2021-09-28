@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 7](./Lecture%207.md) | [Lecture 9](./Lecture%209.md)
+| [Lecture 7](./Lecture%2007.md) | [Lecture 9](./Lecture%2009.md)
 
 
 ## Rules of the Chandy-Lamport Algorithm
@@ -99,7 +99,7 @@ As stated in the previous lecture, the success of the Chandy-Lamport algorithm r
 
 1. Eventual message delivery is guaranteed, thus making delivery failure impossible
 1. All channels act as FIFO queues, thus eliminating the possibility of messages being delivered out of order (FIFO anomalies)
-1. Processes don't crash! (See [lecture 10](./Lecture%2010.md))
+1. Processes don't crash! (See [lecture 10](./Lecture%20010.md))
 
 ### A Worked Example
 
@@ -197,7 +197,7 @@ Now we can appreciate the importance of the assumptions listed at the start.  Th
 
 * Eventual message delivery is guaranteed, and
 * Messages never arrive out of order (all channels are FIFO queues), and
-* Processes do not crash (yeah, right! Again, see [lecture 10](./Lecture%2010.md))
+* Processes do not crash (yeah, right! Again, see [lecture 10](./Lecture%20010.md))
 
 In Chandy & Lamport's [original paper](https://lamport.azurewebsites.net/pubs/chandy.pdf) they provide a proof that the snapshot process does in fact terminate.
 
@@ -209,7 +209,7 @@ Determining the snapshot for the entire system however lies outside the rules of
 
 | Previous | Next
 |---|---
-| [Lecture 7](./Lecture%207.md) | [Lecture 9](./Lecture%209.md)
+| [Lecture 7](./Lecture%2007.md) | [Lecture 9](./Lecture%2009.md)
 
 
 

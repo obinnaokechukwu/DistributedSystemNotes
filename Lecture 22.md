@@ -85,7 +85,7 @@ The bottom line here is that you should only implement strong consistency when y
 
 ## How Do We Generalise the Requirement for Strong Convergence?
 
-To do this, we will need to look back at the definition of a partially ordered set that we covered in lectures [3](./Lecture%203.md) and [4](./Lecture%204.md).
+To do this, we will need to look back at the definition of a partially ordered set that we covered in lectures [3](./Lecture%2003.md) and [4](./Lecture%2004.md).
 
 As a reminder, a partial order allows you to compare the members of set `S` using a binary relation such as `≤` (less than or equals).  However, the word *"partial"* in the name tells us that not every pair of elements in the set is comparable.
 

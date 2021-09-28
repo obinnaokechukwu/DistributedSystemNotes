@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 2](./Lecture%202.md) | [Lecture 4](./Lecture%204.md)
+| [Lecture 2](./Lecture%2002.md) | [Lecture 4](./Lecture%2004.md)
 
 ## Causality and the "Happens Before" Relation
 
@@ -190,7 +190,7 @@ Whenever we talk about a relation being a partial order, we must first look at t
 
 | Previous | Next
 |---|---
-| [Lecture 2](./Lecture%202.md) | [Lecture 4](./Lecture%204.md)
+| [Lecture 2](./Lecture%2002.md) | [Lecture 4](./Lecture%2004.md)
 
 ---
 

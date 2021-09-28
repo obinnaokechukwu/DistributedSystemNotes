@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 5](./Lecture%205.md) | [Lecture 7](./Lecture%207.md)
+| [Lecture 5](./Lecture%2005.md) | [Lecture 7](./Lecture%2007.md)
 
 ## Recap
 
@@ -45,7 +45,7 @@ Here's an example of such a violation
 
 In process <code>P<sub>1</sub></code>,  event `A` happens in the causal history of event `B`; therefore, any messages sent from <code>P<sub>1</sub></code> to <code>P<sub>2</sub></code> should be processed in the same causal order as the events that generated them.
 
-But now, let's go back to the "Bob smells" example used in [lecture 3](./Lecture%203.md)
+But now, let's go back to the "Bob smells" example used in [lecture 3](./Lecture%2003.md)
 
 ![Causal Anomaly](./img/L3%20Causal%20Anomaly.png)
 
@@ -170,7 +170,7 @@ The problem here is that `Carol` delivers the message she receives from `Bob` ou
 
 Here, we can use vector clocks to solve causal anomalies.
 
-In the [previous lecture](./Lecture%205.md), we looked at using vector clocks to count both message-send and -receive events; but in order to ensure Causal Delivery, it turns out that we only need to count message send events.
+In the [previous lecture](./Lecture%2005.md), we looked at using vector clocks to count both message-send and -receive events; but in order to ensure Causal Delivery, it turns out that we only need to count message send events.
 
 ![Ensure Casual Delivery 1](./img/L6%20Ensure%20Casual%20Delivery%201.png)
 
@@ -228,5 +228,5 @@ Once this out-of-sequence message has been delivered, the buffered message can b
 
 | Previous | Next
 |---|---
-| [Lecture 5](./Lecture%205.md) | [Lecture 7](./Lecture%207.md)
+| [Lecture 5](./Lecture%2005.md) | [Lecture 7](./Lecture%2007.md)
 

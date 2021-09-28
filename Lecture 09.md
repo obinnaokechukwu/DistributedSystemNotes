@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| [Lecture 8](./Lecture%208.md) | [Lecture 10](./Lecture%2010.md)
+| [Lecture 8](./Lecture%2008.md) | [Lecture 10](./Lecture%2010.md)
 
 
 ## Big Picture View of the Chandy-Lamport Algorithm
@@ -148,7 +148,7 @@ An event is said to be ***in the cut*** if it belongs to the past.  In Lamport d
 
 So, if event `E` is in the cut and `D->E` then for the cut to be ***consistent***, event `D` must also be in the cut.
 
-This is a restatement of the principle of [consistent global snapshots](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%207.md#consistent-global-snapshot) that we saw in [lecture 7](./Lecture%207.md).
+This is a restatement of the principle of [consistent global snapshots](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%2007.md#consistent-global-snapshot) that we saw in [lecture 7](./Lecture%2007.md).
 
 In both the of following diagrams `B->D`.  Therefore, for a cut to be consistent, it must preserve the fact that event `B` happens in the causal history of event `D`.
 
@@ -194,7 +194,7 @@ In order to enforce FIFO delivery, we could implement strategies such as:
 
 ### Causal Delivery
 
-The [causal delivery](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%206.md#causal-delivery) guarantee simply says messages must be delivered in the order they were sent.
+The [causal delivery](https://github.com/ChrisWhealy/DistributedSystemNotes/blob/master/Lecture%2006.md#causal-delivery) guarantee simply says messages must be delivered in the order they were sent.
 
 > If `m1`'s send happens before `m2`'s send, then `m1`'s delivery must happen before `m2`'s delivery.
 
@@ -238,5 +238,5 @@ Let's now briefly introduce the next topic, that of ***safety*** and ***liveness
 
 | Previous | Next
 |---|---
-| [Lecture 8](./Lecture%208.md) | [Lecture 10](./Lecture%2010.md)
+| [Lecture 8](./Lecture%2008.md) | [Lecture 10](./Lecture%2010.md)
 

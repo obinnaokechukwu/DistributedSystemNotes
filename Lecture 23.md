@@ -194,7 +194,7 @@ So, let's chase after the paper referenced as LL86.
 
 ### Skipping Forward to 1991 and Causal Broadcast
 
-Frank Schmuck's doctoral supervisor was Ken Birman, and in 1991, he published a paper called [Lightweight Causal and Atomic Group Multicast](./papers/birman91multicast.pdf).  In section 4.3 called *"Vector Time"*, they now start to talk about vector clocks, and their description is exactly what we discussed in [lecture 5](./Lecture%205.md#vector-clocks).  This discussion of vector clocks then forms the foundation of the paper's main subject, which is Causal Broadcast.
+Frank Schmuck's doctoral supervisor was Ken Birman, and in 1991, he published a paper called [Lightweight Causal and Atomic Group Multicast](./papers/birman91multicast.pdf).  In section 4.3 called *"Vector Time"*, they now start to talk about vector clocks, and their description is exactly what we discussed in [lecture 5](./Lecture%2005.md#vector-clocks).  This discussion of vector clocks then forms the foundation of the paper's main subject, which is Causal Broadcast.
 
 The key part of the Causal Broadcast discussion then states in section 5.1 that after a message has been received, its delivery is delayed until various conditions have been fulfilled concerning the vector clock values in the message and the vector clock values held in the receiving process.
 
@@ -202,7 +202,7 @@ In class we spoke of the rule that when a message is delivered, the vector clock
 
 ### The Chandy-Lamport Paper
 
-In 1985, K. Mani Chandy and Leslie Lamport published a paper that we've already looked at in [Lecture 8](./Lecture%208.md) called ["Distributed Snapshots: Determining Global States in a Distributed System"](./papers/chandy.pdf).
+In 1985, K. Mani Chandy and Leslie Lamport published a paper that we've already looked at in [Lecture 8](./Lecture%2008.md) called ["Distributed Snapshots: Determining Global States in a Distributed System"](./papers/chandy.pdf).
 
 There is a really nice quote in the introduction that helps summarise what they are trying to achieve. They describe their algorithm as a *state-detection* algorithm that allows them to understand the global state of a distributed system:
 

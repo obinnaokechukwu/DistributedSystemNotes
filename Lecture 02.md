@@ -4,7 +4,7 @@
 
 | Previous | Next
 |---|---
-| | [Lecture 3](./Lecture%203.md)
+| | [Lecture 3](./Lecture%2003.md)
 
 ## What is a Distributed System?
 
@@ -182,6 +182,6 @@ This determinism is also useful when designing systems in which users see a sequ
 
 | Previous | Next
 |---|---
-| | [Lecture 3](./Lecture%203.md)
+| | [Lecture 3](./Lecture%2003.md)
 
 
